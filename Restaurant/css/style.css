@@ -1,0 +1,36 @@
+.text-bold{
+    font-weight: 500;
+    color: maroon !important;
+    margin-right: 30px;
+}
+.button{
+    background-color: maroon;
+    border: 1px solid maroon;
+    color: white;
+    font-weight: 500;
+}
+.button:hover{
+    background-color: white;
+    border: 1px solid maroon;
+    color: maroon;
+    font-weight: 500;
+}
+.images{
+    background-image: url('../images/bg/bg-1.jpg');
+     height: 490px;
+    background-size:cover ;
+    background-position: center;
+}
+#bg-information{
+    background-image: url('../images/bg/bg-2.jpg');
+      height: 400px;
+    background-size:cover ;
+      background-attachment: fixed;
+}
+::-webkit-scrollbar{
+            width: 9px;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: darkred;
+        }
+        
